@@ -1,0 +1,31 @@
+{
+  "name": "node.js",
+  "version": "0.0.1",
+  "description": "A minimal node js environment",
+  "main": "app.js",
+  "build": {
+    "appId": "node.ts"
+  },
+  "scripts": {
+    "preinstall": "npm i typings gulp-cli -g",
+    "postinstall": "typings install env~node --global && gulp"
+  },
+  "keywords": [
+    "basic",
+    "nodejs",
+    "typescript",
+    "vscode"
+  ],
+  "author": "Kris Trigg",
+  "license": "MIT",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "typings": "latest",
+    "env-node": "latest",
+    "gulp":"latest",
+    "gulp-typescript":"latest"
+  }
+}
