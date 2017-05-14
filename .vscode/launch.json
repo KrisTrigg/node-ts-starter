@@ -11,7 +11,7 @@
       "preLaunchTask": "default",
 
       //path of the application entry point
-      "program": "${workspaceRoot}/dist/app.js"
+      "program": "${workspaceRoot}/app.js"
     }
   ]
 }
